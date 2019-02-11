@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-134154876-1');
+    </script>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="Portfolio.css">
@@ -12,8 +23,13 @@
     <!-- Code for navigation bar at top -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
-        <a class = "navbar-brand" href="#">Welcome</a>
+        <a class = "navbar-brand" href="#">Home</a>
       </div>
+
+      <!-- About me section -->
+      <ul class="nav navbar-nav">
+        <li><a href="#personal_section">About Me</a></li>
+      </ul>
 
       <!-- Working on dropdown section -->
       <ul class="nav navbar-nav">
@@ -30,7 +46,7 @@
       </ul> -->
 
       <ul class="nav navbar-nav">
-        <li><a href="#contact_section">Contact Me</a></li>
+        <li><a href="#contact_section">Contact</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -56,17 +72,24 @@
     </nav>
 
     <div class="container">
-      <div class="jumbotron">
-        <div class="Intro">
-          <h2>Welcome to My Portfolio</h2>
+      <!-- <div class="Intro">
+        <h2>Welcome to My Portfolio</h2>
 
-          <p>Hello, and welcome to my new and upcoming data science portfolio.
-            This webpage will serve as my new home for sharing what I’ve been
-            learning, and developing throughout my journey in data science.
-            For now, the projects on this page will be in the form of iPython
-            Notebooks with a combination of write-up and the actual python
-            code. </p>
-        </div>
+        <p>Hello, and welcome to my new and upcoming data science portfolio.
+          This webpage will serve as my new home for sharing what I’ve been
+          learning, and developing throughout my journey in data science.
+          For now, the projects on this page will be in the form of iPython
+          Notebooks with a combination of write-up and the actual python
+          code. </p>
+      </div> -->
+
+      <!-- Landing Screen -->
+      <div class="section" id="landing">
+        <h5 id="mainText" class="center">My Name Is</h5>
+        <h1 style="color: white;"  class="center">
+            Matthew <b>Huh</b>
+        </h1>
+        <h6 id="mainText" class="center">A Data Scientist</h6>
       </div>
     </div>
 
