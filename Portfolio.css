@@ -1,0 +1,29 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.Intro {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('URL to your image here!');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 30vh;
+}
+
+.page-footer {
+  width: 100%;
+}
+
+#footer-content {
+  background: red;
+}
