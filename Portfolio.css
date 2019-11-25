@@ -2,9 +2,23 @@
   margin-bottom: 20px;
 }
 
+body { padding-top: 70px; }
+
 .Intro {
   margin-top: 80px;
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #landing{
