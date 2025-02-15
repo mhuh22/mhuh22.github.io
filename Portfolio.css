@@ -2,6 +2,13 @@
   margin-bottom: 20px;
 }
 
+/* Style for the right-side navbar icons */
+.navbar-nav.navbar-right a img {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  width: 40px; /* Ensure consistent sizing */
+  height: 40px;
+}
+
 body { padding-top: 70px; }
 
 .Intro {
