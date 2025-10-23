@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Matthew Huh | Blog</title>
+
+  <link crossorigin="anonymous" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        rel="stylesheet"/>
+  <link href="Portfolio.css" rel="stylesheet"/>
+
+  <style>
+    body { padding-top:70px; }
+    .post-thumbnail { float:left; margin-right:10px; border-radius:8px; }
+    .post-content { overflow:hidden; }
+    .post-title a { text-decoration:none; color:#333; }
+    .post-title a:hover { text-decoration:underline; }
+    .post-meta { color:#777; font-size:12px; margin-top:4px; }
+    .post-item { margin-bottom:25px; border-bottom:1px solid #eee; padding-bottom:20px; }
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDYNGDRX6D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WDYNGDRX6D');
+  </script>
+ </head>
+
+ <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html#top">Matthew Huh</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html#personal_section">About</a></li>
+      <li><a href="index.html#viz_section">Gallery</a></li>
+      <li class="active"><a href="blog.html">Blog</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Resume_Matthew_Huh.pdf" target="_blank">Resume</a></li>
+      <li><a href="https://www.linkedin.com/in/mhuh/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/mhuh22" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <div class="container mt-3">
+    <div class="Intro">
+      <h2>My Blog</h2>
+      <br/>
+      <p>
+        Welcome to my personal blog. I use this space to write about data science, 
+        fraud analytics, and AI applications — and occasionally topics like personal 
+        finance and automation. Each post below links to a short standalone article.
+      </p>
+    </div>
+
+    <ul style="list-style:none; padding:0;">
+      <li class="post-item">
+        <article>
+          <a class="post-thumbnail" href="content/banking_post1_compoundinterest.txt">
+            <img src="img/blog_compoundinterest.png" alt="Compound Interest" width="128" height="128"/>
+          </a>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="content/banking_post1_compoundinterest.txt">
+                The Power of Compound Interest
+              </a>
+            </h3>
+            <span class="post-meta">October 5, 2025 &nbsp;&nbsp;&nbsp; Finance</span>
+            <p>
+              A quick breakdown of how compound interest works, why time is your greatest asset,
+              and how to visualize exponential growth over years using Python and Matplotlib.
+            </p>
+          </div>
+        </article>
+      </li>
+
+      <li class="post-item">
+        <article>
+          <a class="post-thumbnail" href="content/banking_post2_creditcardoptimization.txt">
+            <img src="img/blog_creditcard.png" alt="Credit Card Optimization" width="128" height="128"/>
+          </a>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="content/banking_post2_creditcardoptimization.txt">
+                Optimizing Credit Card Rewards
+              </a>
+            </h3>
+            <span class="post-meta">October 15, 2025 &nbsp;&nbsp;&nbsp; Data + Finance</span>
+            <p>
+              How I built a data-driven credit card optimizer to recommend cards that 
+              maximize cashback and travel rewards based on real spending behavior.
+            </p>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </div>
+ </body>
+</html>

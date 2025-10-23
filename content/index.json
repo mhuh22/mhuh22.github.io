@@ -1,0 +1,18 @@
+{
+  "generated_by": "ChatGPT",
+  "count": 2,
+  "posts": [
+    {
+      "id": "post1",
+      "filename": "banking_post1_compoundinterest.txt",
+      "title": "The Power of Compound Interest",
+      "tag": "banking"
+    },
+    {
+      "id": "post2",
+      "filename": "banking_post2_creditcardoptimization.txt",
+      "title": "Optimizing Credit Card Rewards",
+      "tag": "banking"
+    }
+  ]
+}
